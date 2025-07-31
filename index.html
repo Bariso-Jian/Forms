@@ -1,0 +1,63 @@
+<!--Hi sir!!! Sorry kung hindi sya as accurate as sa picture, eto lang
+yung makakaya ko without css, sorry po!-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Html layouting!!</title>
+</head>
+<body>
+    
+<table border="0" cellpadding="10">
+    <tr>
+        <td>
+            <img src="YogaDude.jpg" alt="Dude doing Yoga">
+        </td>
+        <td colspan="2">
+            <p>Yoga is a mind-body practice combining physical postures, breath control, and <br>
+                meditation to promote balance, flexibility, and inner peace. Rooted in <br>
+                ancient Indian philosophy, it enhances physical health, reduces stress, <br>
+                and cultivates mindfulness, suitable for all levels.</p>
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="name">Name:</label></td>
+        <td colspan="2"><input type="text" id="name" name="name" size="40"></td>
+    </tr>
+    <tr>
+        <td><label for="address">Address:</label></td>
+        <td colspan="2"><input type="text" id="address" name="address" size="40"></td>
+    </tr>
+    <tr>
+        <td><label for="email">Email-Ad:</label></td>
+        <td colspan="2"><input type="email" id="email" name="email" size="40"></td>
+    </tr>
+    <tr>
+        <td><label for="contact">Contact Number:</label></td>
+        <td colspan="2"><input type="text" id="contact" name="contact" size="40"></td>
+    </tr>
+    <tr>
+        <td rowspan="2"></td>
+        <td><b>Gender:</b></td>
+        <td>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Hobbies:</b></td>
+        <td>
+            <input type="checkbox" name="hobby" value="Swimming"> Swimming<br>
+            <input type="checkbox" name="hobby" value="Biking"> Biking<br>
+            <input type="checkbox" name="hobby" value="Reading"> Reading<br>
+            <input type="checkbox" name="hobby" value="WatchingTV"> Watching TV<br>
+            <input type="checkbox" name="hobby" value="Playing"> Playing
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
